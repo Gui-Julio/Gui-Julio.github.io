@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu GitHub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #161b22;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #8b949e;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .project {
+      background-color: #21262d;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 280px;
+      text-align: left;
+      transition: transform 0.2s;
+    }
+
+    .project:hover {
+      transform: scale(1.03);
+    }
+
+    .project a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #161b22;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #8b949e;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <header>
+    <h1>Olá, eu sou [Seu Nome]</h1>
+    <p>Bem-vindo ao meu GitHub!</p>
+    <p><a href="https://github.com/seuusuario" target="_blank" style="color:#58a6ff;">Visite meu perfil no GitHub</a></p>
+  </header>
+
+  <main>
+    <h2>Meus Projetos</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Projeto 1</h3>
+        <p>Descrição curta do projeto.</p>
+        <a href="https://github.com/seuusuario/repositorio1" target="_blank">Ver no GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Projeto 2</h3>
+        <p>Outro projeto interessante.</p>
+        <a href="https://github.com/seuusuario/repositorio2" target="_blank">Ver no GitHub</a>
+      </div>
+      <!-- Adicione mais projetos aqui -->
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 [Seu Nome] · Feito com ♥ e HTML
+  </footer>
+
 </body>
 </html>
